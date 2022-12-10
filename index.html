@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Neuro Doctor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *
+        {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        }
+        body
+        {
+        background:rgb(255, 255, 255);
+        }
+        h3 {
+            width: 100px;
+            height: 100px;
+        }
+
+        h4{
+            width: 200px;
+            height: 95px;
+            
+        }
+        img{
+            width: 250px;
+            height: 100px;
+
+        }
+        .container-fluid
+        {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 80px 0px;
+        }
+        .container
+        {
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        }
+        .container .search
+        {
+        display: flex;
+        padding: 30px 0px;
+        justify-content: space-between;
+        }
+        .container .search h1
+        {
+        letter-spacing: 3px;
+        display: inline-block;
+        border-bottom: 2px solid green;
+        padding-bottom: 10px;
+        }
+        .container .search input
+        {
+        width: 60%;
+        padding: 5px 16px;
+        background: transparent;
+        border: 1px solid #000;
+        font-size: 20px;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        outline: none;
+        }
+        .container .search input::placeholder
+        {
+        color: green;
+        font-weight: 500;
+        }
+        .container .product-list
+        {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        }
+        .container .product-list .product
+        {
+        margin-top: 30px;
+        }
+        .container .product-list .product h3
+        {
+        padding-top: 5px;
+        letter-spacing: 2px;
+        font-size: 22px;
+        font-weight: 400;
+        }
+        .container .product-list .product h4
+        {
+        padding: 3px 0px;
+        color: #48a809;
+        font-weight: 700;
+        letter-spacing: 3px;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="search">
+                <h1>All Targets</h1>
+                <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
+            </div>
+            <div class="product-list">
+
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lu-AE58054.svg/330px-Lu-AE58054.svg.png" alt="" class="src">
+                    <h3>Serotoninergic(Target)-Idalopirdine(Prescribed Drug) </h3>
+                    <h4>Side-effects: No clinical efficacy </h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/SB-742457-structure.png" alt="" class="src">
+                    <h3>Serotoninergic(Target)-Intepirdine(Prescribed Drug) </h3>
+                    <h4>Side-effects: Not applicable </h4>
+                </div>
+    
+                <div class="product">
+                    <img src="https://www.researchgate.net/profile/James-Polakowski/publication/229426973/figure/fig1/AS:486087341678592@1492903661201/Chemical-structure-of-ABT-288.png" alt="" class="src">
+                    <h3>Histaminergic(Target)- ABT-288(Prescribed Drug)</h3>
+                    <h4>Side-effects: No clinical efficacy</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://medkoo.com/uploads/product/GSK-239512/image/GSK-239512.gif" alt="" class="src">
+                    <h3>Histaminergic(Target)- GSK239512(Prescribed Drug)</h3>
+                    <h4>Side-effects:No improvements in memory test </h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://file.medchemexpress.com/product_pic/hy-122608.gif" alt="" class="src">
+                    <h3>Histaminergic(Target)- SUVN-G3031(Prescribed Drug)</h3>
+                    <h4>Side-effects: Not applicable</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Encenicline.svg/1200px-Encenicline.svg.png" alt="" class="src">
+                    <h3>Acetylcholine response(Target)- Encenicline(Prescribed Drug)</h3>
+                    <h4>Side-effects: gastrointestinal </h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Riluzole.svg/1200px-Riluzole.svg.png" alt="" class="src">
+                    <h3>Glutaminergic(Target)- Riluzole(Prescribed Drug)</h3>
+                    <h4>Side-effects: 	Not applicable</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://pubs.acs.org/cms/10.1021/acs.oprd.2c00325/asset/images/large/op2c00325_0002.jpeg" alt="" class="src">
+                    <h3 style="width: 250px;">BACE inhibitor(Target)- BI 1181181(Prescribed Drug)</h3>
+                    <h4>Side-effects:Low oral bioavailability and low blood-brain barrier penetration </h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.medkoo.com/uploads/product/RO5508887_free_base/image/RO5508887_free_base.gif" alt="" class="src">
+                    <h3>BACE inhibitor(Target)- RG7129(Prescribed Drug)</h3>
+                    <h4>Side-effects: Liver toxicity</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://file.selleckchem.com/downloads/struct/LY2811376-chemical-structure-S1528.gif" alt="" class="src">
+                    <h3>BACE inhibitor(Target)- LY2811376(Prescribed Drug)</h3>
+                    <h4>Side-effects: Liver toxicity</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://file.selleckchem.com/downloads/struct/LY2886721-chemical-structure-S2156.gif" alt="" class="src">
+                    <h3>BACE inhibitor(Target)- LY2886721(Prescribed Drug)</h3>
+                    <h4>Side-effects: Liver toxicity</h4>
+                </div>
+
+                <div class="product">
+                    <img src="https://file.medchemexpress.com/product_pic/hy-109055.gif" alt="" class="src">
+                    <h3>BACE inhibitor(Target)- E2609(Prescribed Drug)</h3>
+                    <h4>Side-effects: Not Applicable</h4>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script type="text/javascript">
+        function search() {
+            let filter = document.getElementById('find').value.toUpperCase();
+            let item = document.querySelectorAll('.product');
+            let l = document.getElementsByTagName('h3');
+            for (var i = 0; i <= l.length; i++) {
+                let a = item[i].getElementsByTagName('h3')[0];
+                let value = a.innerHTML || a.innerText || a.textContent;
+                if (value.toUpperCase().indexOf(filter) > -1) {
+                    item[i].style.display = "";
+                } else {
+                    item[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
